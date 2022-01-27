@@ -14,6 +14,6 @@ module.exports = {
     insertPragma: false, //在已被preitter格式化的文件顶部加上标注
     proseWrap: 'preserve', //不知道怎么翻译
     htmlWhitespaceSensitivity: 'ignore', //对HTML全局空白不敏感
-    endOfLine: 'lf', //结束行形式
+    // endOfLine: 'lf', //结束行形式
     embeddedLanguageFormatting: 'auto', //对引用代码进行格式化
 };
