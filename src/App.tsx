@@ -3,7 +3,8 @@ function App() {
 		<div>
 			
 									<span>
-<button/>
+				<button />
+				<table></table>
                                                    hello world
 
 			</span>
