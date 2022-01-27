@@ -5,13 +5,10 @@
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"serve": "vite preview",
-		"precommit": "lint-staged"
+		"prepare": "husky install"
 	},
 	"lint-staged": {
-		"*.{tsx,ts,json,js,jsx}": [
-			"prettier --tab-width 4 --write",
-			"git add"
-		]
+		"*.{js,css,md,tsx,json,ts}": "prettier --write"
 	},
 	"dependencies": {
 		"react": "^17.0.0",
