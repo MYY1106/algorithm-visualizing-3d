@@ -7,6 +7,11 @@
 		"serve": "vite preview",
 		"prepare": "husky install"
 	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
 	"lint-staged": {
 		"*.{js,css,less,md,tsx,json,ts}": "prettier --write"
 	},
