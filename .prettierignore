@@ -1,5 +1,2 @@
 # Ignore artifacts:
 build
-
-# Ignore all HTML files:
-*.html

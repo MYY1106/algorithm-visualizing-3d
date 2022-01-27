@@ -1,11 +1,11 @@
 module.exports = {
     printWidth: 80, //单行长度
-                     tabWidth: 4, //缩进长度
-    useTabs: true, //使用空格缩进
+    tabWidth: 4, //缩进长度
+    useTabs: false, //使用空格缩进
     semi: true, //句末使用分号
     singleQuote: true, //使用单引号
-                    quoteProps: 'as-needed', //仅在必需时为对象的key添加引号
-    tsxSingleQuote: true, // tsx中使用单引号
+    quoteProps: 'as-needed', //仅在必需时为对象的key添加引号
+    jsxSingleQuote: true, // jsx中使用单引号
     trailingComma: 'all', //多行时尽可能打印尾随逗号
     bracketSpacing: true, //在对象前后添加空格-eg: { foo: bar }
     jsxBracketSameLine: false, //多属性html标签的‘>’不折行放置
