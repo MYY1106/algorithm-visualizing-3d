@@ -8,6 +8,7 @@ function App() {
                                                    hello world
 <span></span>
 			</span>
+			<img src="" alt="" />
 		</div>
 	);
 }
