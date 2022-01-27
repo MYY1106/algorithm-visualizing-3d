@@ -8,7 +8,7 @@ function App() {
         <Router>
             <Routes>
                 <Route path='/' element={<Home />} />
-                                                        <Route path='/linear' element={<Linear />} />
+                                                            <Route path='/linear' element={<Linear />} />
                 <Route path='/tree' element={<Tree />} />
             </Routes>
         </Router>
