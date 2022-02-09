@@ -1,15 +1,24 @@
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import {
+    HashRouter as Router,
+    Route,
+    Routes,
+    Navigate,
+} from 'react-router-dom';
 import './App.less';
-import { Home, Linear, Tree } from './views';
+import { Home, Algorithm, Tree, Heap } from './views';
 
 function App() {
-    const a = '123';
     return (
         <Router>
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path='/linear' element={<Linear />} />
-                <Route path='/tree' element={<Tree />} />
+                <Route path='/algorithm' element={<Algorithm />}>
+                    {/* 嵌套路由 */}
+                    <Route index element={<Heap />} />
+                    <Route path='tree' element={<Tree />} />
+                </Route>
+                {/* 重定向到首页 */}
+                <Route path='*' element={<Navigate to='/' />} />
             </Routes>
         </Router>
     );
