@@ -8,6 +8,7 @@
         "prepare": "husky install"
     },
     "dependencies": {
+        "@three-ts/orbit-controls": "^1.4.7",
         "react": "^17.0.0",
         "react-dom": "^17.0.0",
         "react-router-dom": "^6.2.1",

@@ -15,3 +15,4 @@ declare module '*.tsx';
 declare module '*.mp3';
 
 declare module 'postcss-px-to-viewport';
+declare module 'three-orbitcontrols';
