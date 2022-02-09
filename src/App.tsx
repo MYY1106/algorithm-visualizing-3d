@@ -5,7 +5,7 @@ import {
     Navigate,
 } from 'react-router-dom';
 import './App.less';
-import { Home, Algorithm, Stack, Tree, Heap } from './views';
+import { Home, Algorithm, Stack, Heap } from './views';
 
 function App() {
     return (
@@ -14,7 +14,7 @@ function App() {
                 <Route path='/' element={<Home />} />
                 <Route path='/algorithm' element={<Algorithm />}>
                     {/* 嵌套路由 */}
-                    <Route index element={<Heap />} />
+                    <Route path='heap' element={<Heap />} />
                     <Route path='stack' element={<Stack />} />
                 </Route>
                 {/* 重定向到首页 */}
