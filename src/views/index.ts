@@ -1,4 +1,4 @@
 import Home from './Home';
-import Linear from './Linear';
+import Stack from './Stack';
 import Tree from './Tree';
-export { Home, Linear, Tree };
+export { Home, Stack, Tree };
