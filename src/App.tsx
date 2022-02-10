@@ -12,13 +12,9 @@ function App() {
         <Router>
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path='/algorithm' element={<Algorithm />}>
-                    {/* 嵌套路由 */}
-                    <Route path='heap' element={<Heap />} />
-                    <Route path='stack' element={<Stack />} />
-                </Route>
+                <Route path='/algorithm/*' element={<Algorithm />}></Route>
                 {/* 重定向到首页 */}
-                <Route path='*' element={<Navigate to='/' />} />
+                {/* <Route path='*' element={<Navigate to='/' />} /> */}
             </Routes>
         </Router>
     );

@@ -1,4 +1,6 @@
-import { Link, Outlet } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
+import { Heap, Stack, Code } from '../index';
+
 export default function index() {
     return (
         <div>
@@ -6,7 +8,14 @@ export default function index() {
                 <Link to='/algorithm/heap'>Heap</Link>
                 <Link to='/algorithm/stack'>stack</Link>
             </nav>
-            <Outlet />
+            <Routes>
+                <Route path='heap' element={<Heap />} />
+                <Route path='stack' element={<Stack />} />
+            </Routes>
+            <Routes>
+                <Route path='heap' element={<Code />} />
+                <Route path='stack' element={<Code />} />
+            </Routes>
         </div>
     );
 }
