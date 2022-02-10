@@ -32,7 +32,7 @@ export default function index() {
                                 </svg></svg>
                         </g>
                     </g>
-                    <g transform="translate(67,6.069284439086914)" fill="white">
+                    <g transform="translate(80,6.069284439086914)" fill="white">
                         <g data-gra="path-name" fill-rule="" className="tp-name iconsvg-namesvg" transform="matrix(1,0,0,1,0,0)"
                             opacity="1">
                             <g transform="scale(1)">

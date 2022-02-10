@@ -4,7 +4,7 @@ import {
     Routes,
     Navigate,
 } from 'react-router-dom';
-import './App.less';
+import 'assets/style/App.less';
 import { Home, Algorithm, Stack, Heap } from './views';
 
 function App() {
