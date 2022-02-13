@@ -1,3 +1,3 @@
 import Logo from './Logo';
-
-export { Logo };
+import NavLink from './NavLink';
+export { Logo, NavLink };

@@ -1,6 +1,7 @@
-import { Link, Outlet } from 'react-router-dom';
 import styles from './index.module.less';
-import { Logo } from 'components';
+import { Logo, NavLink } from 'components';
+import { algorithmData } from '@/data';
+
 export default function index() {
     return (
         <div className={styles['their-father']}>
@@ -9,15 +10,15 @@ export default function index() {
             </header>
             <main className={styles.main}>
                 <nav className={styles.nav}>
-                    <Link className={styles.sort} to='/algorithm/heap'>
-                        堆
-                    </Link>
-                    <Link className={styles.sort} to='/algorithm/stack'>
-                        栈
-                    </Link>
+                    {algorithmData.map((algo) => (
+                        <NavLink
+                            {...{ ...algo, to: `/algorithm/${algo.to}` }}
+                            level={1}
+                            key={algo.id}
+                        />
+                    ))}
                 </nav>
                 <div className={styles.line} />
-                <Outlet />
             </main>
         </div>
     );

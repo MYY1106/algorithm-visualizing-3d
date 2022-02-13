@@ -1,0 +1,46 @@
+.sort {
+    transition: all 0.5s linear;
+    height: 40px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    // color: rgb(213, 233, 255);
+    color: white;
+    font-family: 'RuiZiPixel';
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+}
+
+.children-sort {
+    height: 20px;
+    text-align: left;
+    color: rgb(212, 233, 245);
+    display: flex;
+    align-items: center;
+    font-family: 'RuiZiPixel';
+    font-weight: 600;
+    font-size: 9px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+}
+
+.children-list {
+    overflow: hidden;
+    list-style: none;
+    transition: all 0.3s linear;
+    margin: 0;
+    padding: 0;
+    height: 0;
+}
+
+.link-container:hover .children-list {
+    font-size: 10px;
+    height: calc(var(--childrenLength) * 18px);
+}
+.link-container:hover .sort {
+    background: linear-gradient(to right, #b2fefa, #0e8ef7, #00296b);
+    background-clip: text;
+    color: transparent;
+}

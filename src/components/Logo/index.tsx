@@ -16,7 +16,7 @@ export default function index() {
                 height='100%'
                 viewBox='0 0 340.000000 250.000000'
                 preserveAspectRatio='xMidYMid meet'
-                color-interpolation-filters='sRGB'
+                colorInterpolationFilters='sRGB'
             >
                 <rect
                     data-v-2cb57da0=''
@@ -25,7 +25,7 @@ export default function index() {
                     width='100%'
                     height='100%'
                     fill='#fff'
-                    fill-opacity='0'
+                    fillOpacity='0'
                     className='background'
                 ></rect>
                 <rect
@@ -35,7 +35,7 @@ export default function index() {
                     width='100%'
                     height='100%'
                     fill='url(#watermark)'
-                    fill-opacity='1'
+                    fillOpacity='1'
                     className='watermarklayer'
                 ></rect>
                 <g
@@ -52,8 +52,8 @@ export default function index() {
                         <g>
                             <rect
                                 fill='#333'
-                                fill-opacity='0'
-                                stroke-width='2'
+                                fillOpacity='0'
+                                strokeWidth='2'
                                 x='0'
                                 y='0'
                                 width='59.99999999999999'
@@ -90,7 +90,7 @@ export default function index() {
                     <g transform='translate(80,6.069284439086914)' fill='white'>
                         <g
                             data-gra='path-name'
-                            fill-rule=''
+                            fillRule=''
                             className='tp-name iconsvg-namesvg'
                             transform='matrix(1,0,0,1,0,0)'
                             opacity='1'
@@ -106,7 +106,7 @@ export default function index() {
                         </g>
                         <g
                             data-gra='path-slogan'
-                            fill-rule=''
+                            fillRule=''
                             className='tp-slogan iconsvg-slogansvg'
                             fill='white'
                             transform='matrix(1,0,0,1,23.540000915527344,44.52000045776367)'

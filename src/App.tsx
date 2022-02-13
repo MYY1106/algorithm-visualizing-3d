@@ -1,11 +1,6 @@
-import {
-    HashRouter as Router,
-    Route,
-    Routes,
-    Navigate,
-} from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import 'assets/style/App.less';
-import { Home, Algorithm, Stack, Heap } from './views';
+import { Home, Algorithm } from './views';
 
 function App() {
     return (
