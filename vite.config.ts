@@ -11,6 +11,9 @@ const loderPostcssPxToViewport = postcssPxToViewport({
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    server:{
+       open: true
+    },
     plugins: [react()],
     resolve: {
         alias: {
